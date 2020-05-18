@@ -3,7 +3,9 @@ import ToggleMenu from '../components/ToggleMenu';
 import ToggleList from '../components/ToggleList';
 
 import '../css/header-styles.css';
+
 import logo from '../images/Team-red.png';
+
 
 class Header extends Component {
   constructor(props)
