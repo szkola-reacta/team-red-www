@@ -1,0 +1,62 @@
+.header-container
+{
+   width: 100%;
+   position: fixed;
+   background-color: darkred;
+   height: 15vh;
+   top: 0;
+   left: 0;
+   color: white;
+   text-decoration: none;
+   
+}
+
+.header-toolbar
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.header-menu-sites a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu-sites ul
+{
+    list-style: none;
+}
+
+.header-menu-sites a:hover
+{
+    color: lightgray;
+}
+
+.header-menu-sites li
+{
+    padding-right: 4.5em;
+    display: inline-block;
+}
+
+.space
+{
+    flex:1;
+}
+
+.logo img
+{
+    width: 5vw;
+    height: 8vh;
+    margin-top: 0.5em;
+    
+}

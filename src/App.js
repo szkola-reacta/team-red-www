@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Team Red - sara checkout
+      <Header />
+      <main style = {{marginTop: '15vh'}}/>
+      CONTENT
+      <Footer />
     </div>
   );
 }
