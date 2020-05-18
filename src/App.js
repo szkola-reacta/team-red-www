@@ -3,10 +3,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ToggleMenu from './components/ToggleMenu';
 
-
 import './App.css';
 
-class App extends Component 
+class App extends Component
 {
   constructor(props)
   {
