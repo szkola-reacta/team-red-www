@@ -1,4 +1,4 @@
-# Team Red [!Team red app logo](https://github.com/SaraBlich/Cpn-true/blob/master/public/SB.png)
+# Team Red [!Team red app logo](https://github.com/szkola-reacta/team-red-www/blob/master/public/Team-red.png)
 
 ## Table of contents
 * [Description](#description)
