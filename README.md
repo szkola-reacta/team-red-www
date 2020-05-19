@@ -24,7 +24,7 @@ Team Red was created in React.js environment. As it was decided not to use any l
 To run the Team Red (team-red-www) repository files to an empty chosen folder. Enter the folder via console (ex. 'Anaconda Prompt') by comand `cd ./foldername`, where foldername is the name of your new created folder and simply type `npm start`. 
 
 ## Site
-The aplication is fully responsive - it works well with computers, tablets and mobiles. Responsitivity issue were solved with usual 'vw', 'vh' and also css media queries. 
+The aplication is responsive - it works well with big (>800px) or small screens (500-800px). Responsitivity issue were solved with usual 'vw', 'vh' and also css media queries. 
 
 1 viewport width (vw) is equal to 1% of the viewport’s width. The units differ from percentages because they are always relative to the viewport, whereas a percentage is relative to the element’s parent container.
 
