@@ -13,7 +13,7 @@
 Basic website introducing Team Red - group of React enthusiastics. Feel free to take a look.
 
 ## Used technologies
-Team Red was created in React.js environment. As it was decided not to use any librares, whole styling were made with simple css. Logo was provided with Photoshop graphical programme. As reduced weight of memory was required, .svg format was chosen to isplay the image.
+Team Red was created in React.js environment. As it was decided not to use any librares, whole styling were made with simple css. Logo was provided with Photoshop graphical programme. As reduced weight of memory was required, .svg format was chosen to display the image.
 
 - React 16.13.1,
 - CSS3,
