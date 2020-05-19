@@ -7,7 +7,7 @@
 * [Site](#site)
 * [Application architecture](#application-architecture)
 * [To-do](#to-do)
-* [Contact](#contact)
+
 
 ## Description
 Basic website introducing Team Red - group of React enthusiastics. Feel free to take a look.
