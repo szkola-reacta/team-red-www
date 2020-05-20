@@ -1,14 +1,22 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Content from './components/Content';
+
 import './App.css';
 
-function App() {
+function App()
+{
+
   return (
     <div className="App">
-      <p>Team Red</p>
-      <p>Wojtek</p>
-      <h1>Team Red - sara checkout </h1>
+      <Header />
+      <main style = {{marginTop: '20vh'}}/>
+      <Content />
+      <Footer />
     </div>
   );
-}
+  }
+
 
 export default App;
