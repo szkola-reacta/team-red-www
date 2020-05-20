@@ -2,16 +2,22 @@
     {
         "name" : "Wojtek Gołębiowski",
         "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-        "image" : "#"
+        "image" : "#",
+        "githubURL" : "",
+        "linkedIN" : ""
     },
     {
         "name" : "Sara Blichowska",
         "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-        "image" : "/profile-photos/sb.jpg"
+        "image" : "/profile-photos/sb.jpg",
+        "githubURL" : "",
+        "linkedIN" : ""
     },
     {
         "name" : "Radek",
         "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-        "image" : "#"
+        "image" : "#",
+        "githubURL" : "",
+        "linkedIN" : ""
     }
 ]

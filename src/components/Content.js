@@ -23,7 +23,7 @@ class Content extends React.Component {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget libero nunc. Vestibulum sit amet tempor risus. Nulla quis odio.</p>
                 </div>
                 <div className="members">
-                    <h2>Team Read members:</h2>
+                    <h2>Team Red members:</h2>
                     {data.map(member => <MembersList membersInfo={member} key = {member.name} /> )}
                 </div>
             </>
