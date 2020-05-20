@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Team Red [!Team red app logo](https://github.com/szkola-reacta/team-red-www/blob/master/public/Team-red.png)
 
-## Available Scripts
+## Table of contents
+* [Description](#description)
+* [Technologies](#used-technologies)
+* [Setup](#setup)
+* [Site](#site)
+* [Application architecture](#application-architecture)
+* [To-do](#to-do)
 
-In the project directory, you can run:
 
-### `npm start`
+## Description
+Basic website introducing Team Red - group of React enthusiastics. Feel free to take a look.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Used technologies
+Team Red was created in React.js environment. As it was decided not to use any librares, whole styling were made with simple css. Logo was provided with Photoshop graphical programme. As reduced weight of memory was required, .svg format was chosen to display the image.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- React 16.13.1,
+- CSS3,
+- Photoshop 21.1.2
 
-### `npm test`
+## Setup
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the Team Red (team-red-www) repository files to an empty chosen folder. Enter the folder via console (ex. 'Anaconda Prompt') by comand `cd ./foldername`, where foldername is the name of your new created folder and simply type `npm start`. 
 
-### `npm run build`
+## Site
+The aplication is responsive - it works well with big (>800px) or small screens (500-800px). Responsitivity issue were solved with usual 'vw', 'vh' and also css media queries. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1 viewport width (vw) is equal to 1% of the viewport’s width. The units differ from percentages because they are always relative to the viewport, whereas a percentage is relative to the element’s parent container.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Two viewport units are available within the css code:
+- <b>vw:</b> viewport width,
+- <b>vh:</b> viewport height.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Application architecture
+Team Red has the fundamental component App.js rendered in index.js. In the App component is rendered <b>Header.js</b>, <b>Content.js</b> and <b>Footer.js</b> components. In the Header.js is rendered <b>ToggleMenu.js</b> and <b>ToggleList.js</b> component. ToggleMenu holds the state of header navigation within small devices and provides navigation bar for larger screens. ToggleList provides visualisation of the list, when the state of ToggleMenu allows. <b>MembersList.js</b> is maintained in Content component. Components are held in seperated folder to maintain application visuality. 
 
-### `npm run eject`
+-index.js
+  - App.js
+    - Header:
+      - ToggleMenu
+      - ToggleList
+    - Content
+      - MembersList
+    - Footer
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## To-do
+- styling of the page
+- add <i>About</i> content
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
