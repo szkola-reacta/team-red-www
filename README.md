@@ -33,7 +33,7 @@ Two viewport units are available within the css code:
 - <b>vh:</b> viewport height.
 
 ## Application architecture
-Team Red has the fundamental component App.js rendered in index.js. In the App component is rendered <b>Header.js</b>, <b>Content.js</b> and <b>Footer.js</b> components. In the Header.js is rendered <b>ToggleMenu.js</b> and <b>ToggleList.js</b> component. ToggleMenu holds the state of header navigation within small devices and provides navigation bar for larger screens. ToggleList provides visualisation of the list, when the state of ToggleMenu allows. Components are held in seperated folder to maintain application visuality. 
+Team Red has the fundamental component App.js rendered in index.js. In the App component is rendered <b>Header.js</b>, <b>Content.js</b> and <b>Footer.js</b> components. In the Header.js is rendered <b>ToggleMenu.js</b> and <b>ToggleList.js</b> component. ToggleMenu holds the state of header navigation within small devices and provides navigation bar for larger screens. ToggleList provides visualisation of the list, when the state of ToggleMenu allows. <b>MembersList.js</b> is maintained in Content component. Components are held in seperated folder to maintain application visuality. 
 
 -index.js
   - App.js
@@ -41,6 +41,7 @@ Team Red has the fundamental component App.js rendered in index.js. In the App c
       - ToggleMenu
       - ToggleList
     - Content
+      - MembersList
     - Footer
 
 ## To-do
