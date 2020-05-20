@@ -24,7 +24,7 @@ class Content extends React.Component {
                 </div>
                 <div className="members">
                     <h2>Team Read members:</h2>
-                    {data.map(member => <MembersList membersInfo={member}/>)}
+                    {data.map(member => <MembersList membersInfo={member} key = {member.name} /> )}
                 </div>
             </>
         )
