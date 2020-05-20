@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Wojtek Gołębiowski",
+        "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "image" : "#"
+    },
+    {
+        "name" : "Sara Blichowska",
+        "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "image" : "/profile-photos/sb.jpg"
+    },
+    {
+        "name" : "Radek",
+        "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "image" : "#"
+    }
+]
