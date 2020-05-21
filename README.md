@@ -45,6 +45,6 @@ Team Red has the fundamental component App.js rendered in index.js. In the App c
     - Footer
 
 ## To-do
-- styling of the page
-- add <i>About</i> content
+- styling
+- update data.json with information about all contributors
 
