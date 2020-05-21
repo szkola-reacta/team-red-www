@@ -3,15 +3,21 @@
    width: 100%;
    position: fixed;
    background-color: darkred;
-   height: 20vh;
+   height: 11vh;
    top: 0;
    left: 0;
    color: white;
    text-decoration: none;
-   
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 499px) {
+    .header-container
+    {
+    height: 45px;
+    }
+}
+
+@media screen and (min-width: 801px) {
     .header-toolbar
     {
         display: flex;
@@ -20,13 +26,12 @@
     }
   }
 
-  @media screen and (min-width: 500px) and (max-width: 800px) {
+  @media screen and (max-width: 800px) {
     .header-toolbar
     {
         display: none;
     }
   }
-
 
 .logo a
 {
@@ -38,26 +43,47 @@
     min-height: 3rem;
 }
 
-.header-menu-sites a
-{
-    color: white;
-    text-decoration: none;
-}
-
 .header-menu-sites ul
 {
     list-style: none;
-}
-
-.header-menu-sites a:hover
-{
-    color: lightgray;
 }
 
 .header-menu-sites li
 {
     padding-right: 4.5em;
     display: inline-block;
+}
+
+.header-menu-sites a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    transition: color .3s ease-in-out;
+}
+
+.header-menu-sites a:hover
+{
+    color: #000;
+}
+
+.header-menu-sites a::after
+{
+    content: '';
+    width: 100%;
+    bottom: 0;
+    height: .2em;
+    background: transparent;
+    display: block;
+    transition: background .3s ease-in-out;
+}
+
+.header-menu-sites a:hover::after,
+.header-menu-sites a:active::after
+{
+    background: #000;
 }
 
 .space
@@ -67,6 +93,5 @@
 
 .logo img
 {
-    width: 4vw;
     height: 9vh;
 }

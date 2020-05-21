@@ -1,6 +1,8 @@
 import React from 'react';
 
 import MembersList from './MembersList';
+import '../css/content.css';
+import '../css/members.css';
 
 class Content extends React.Component {
 
@@ -17,7 +19,7 @@ class Content extends React.Component {
     render(){
         const { data } = this.state
         return (
-            <>
+            <main>
                 <div className="app-description">
                     <h2>About App</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget libero nunc. Vestibulum sit amet tempor risus. Nulla quis odio.</p>
@@ -26,7 +28,7 @@ class Content extends React.Component {
                     <h2>Team Red members:</h2>
                     {data.map(member => <MembersList membersInfo={member} key = {member.name} /> )}
                 </div>
-            </>
+            </main>
         )
     }
 
