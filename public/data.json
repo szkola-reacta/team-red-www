@@ -8,10 +8,10 @@
     },
     {
         "name" : "Sara Blichowska",
-        "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+        "description" : "Student on the fourth year of biomedical engineering (specialization Computer Science and Electronics) at AGH The University of Science and Technology in Cracow. Passionate in front-end technologies. React lover.",
         "image" : "/profile-photos/sb.jpg",
-        "githubURL" : "",
-        "linkedIN" : ""
+        "githubURL" : "https://github.com/SaraBlich",
+        "linkedIN" : "https://www.linkedin.com/in/sara-blichowska-710b92188/"
     },
     {
         "name" : "Radek",
