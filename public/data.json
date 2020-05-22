@@ -1,10 +1,10 @@
 [
     {
         "name" : "Wojtek Gołębiowski",
-        "description" : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-        "image" : "#",
-        "githubURL" : "",
-        "linkedIN" : ""
+        "description" : "I AM NOT Student on the fourth year of biomedical engineering (specialization Computer Science and Electronics) at AGH The University of Science and Technology in Cracow. Passionate in front-end technologies. React lover.",
+        "image" : "/profile-photos/wg.jpg",
+        "githubURL" : "https://github.com/ggolabb",
+        "linkedIN" : "https://www.linkedin.com/in/wgolebiowski/"
     },
     {
         "name" : "Sara Blichowska",
