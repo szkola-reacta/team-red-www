@@ -47,4 +47,4 @@ Team Red has the fundamental component App.js rendered in index.js. In the App c
 ## To-do
 - styling
 - update data.json with information about all contributors
-
+- be awesome
