@@ -4,7 +4,7 @@ import MembersList from './MembersList';
 import '../css/content.css';
 import '../css/members.css';
 
-class Content extends React.Component {
+class Team extends React.Component {
 
     state = {
         data: []
@@ -35,4 +35,4 @@ class Content extends React.Component {
 }
 
 
-export default Content;
+export default Team;
