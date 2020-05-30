@@ -1,0 +1,98 @@
+.members
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.members h2
+{
+	flex-basis: 100%;
+}
+
+.members .members-list
+{
+	box-sizing: border-box;
+	flex: 0 1 calc(100% - 4em);
+	display: grid;
+	grid-template-columns: 3fr 8fr 50px;
+	grid-template-rows: auto auto 50px 50px;
+	grid-template-areas:
+	"member-img member-name member-name"
+	"member-img member-description ."
+	"member-img member-description github-link"
+	"member-img member-description linkedin-link";
+	margin: 2em 0;
+	column-gap: 1em;
+	background: #22323f;
+	justify-items: stretch;
+	align-items: stretch;
+	border: 2px solid #000c14;
+	transition: background .3s ease-in-out;
+}
+.members .members-list:hover
+{
+	background: hsl(207, 30%, 16%);
+}
+
+.members .members-list *
+{
+	margin: 0;
+}
+
+.members .members-list img
+{
+	grid-area: member-img;
+	max-width: 100%;
+}
+
+.member-name
+{
+	grid-area: member-name;
+	color: darkred;
+	line-height: 2em;
+}
+
+.member-description
+{
+	grid-area: member-description;
+	color: rgb(228, 228, 228);
+}
+
+.github-link
+{
+	max-width: 50px;
+	grid-area: github-link;
+}
+
+.linkedin-link
+{
+	max-width: 50px;
+	grid-area: linkedin-link;
+}
+
+@media screen and (max-width: 499px) {
+	.members .members-list
+	{
+		flex-basis: 100%;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto 50px;
+		grid-template-areas:
+		"member-name member-name"
+		"member-description member-description"
+		"member-img member-img"
+		"github-link linkedin-link";
+	}
+
+	.github-link
+	{
+		justify-self: right;
+	}
+
+	.linkedin-link
+	{
+		justify-self: left;
+	}
+
+}
