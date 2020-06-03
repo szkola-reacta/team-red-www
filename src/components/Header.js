@@ -1,7 +1,11 @@
+<<<<<<< HEAD
+import React from 'react';
+=======
 import React, {Fragment, Component} from 'react';
 import ToggleMenu from '../components/ToggleMenu';
 import ToggleList from '../components/ToggleList';
 import { Link } from 'react-router-dom';
+>>>>>>> master
 
 import '../css/header-styles.css';
 
@@ -47,12 +51,23 @@ class Header extends Component {
              <ToggleMenu handleToggle = {this.handleToggle}/>
             </nav>
 
+<<<<<<< HEAD
+                <nav className="header-navbar">
+                    <ul className="header-navbar-list">
+                        <li><a href='#home'>Home</a></li>
+                        <li><a href='#team-members-container'>Team</a></li>
+                        <li><a href='#projects'>Projects</a></li>
+                    </ul>
+                </nav>
+    )
+=======
         </div>
         {this.state.listOn ? <ToggleList/> : undefined}
 
       </Fragment>
     );
   }
+>>>>>>> master
 }
 
   export default Header;

@@ -1,4 +1,8 @@
 import React from 'react';
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 import './App.css';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
@@ -16,6 +20,12 @@ function App()
 
   return (
     <div className="App">
+<<<<<<< HEAD
+      <Header />
+      <Home />
+      <Team />
+      <Projects />
+=======
       <Router>
         <Header />
         <Switch>
@@ -24,6 +34,7 @@ function App()
           <Route path = '/'><Home /></Route>
         </Switch>
       </Router>
+>>>>>>> master
       <Footer />
     </div>
   );

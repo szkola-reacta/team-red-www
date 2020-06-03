@@ -1,0 +1,20 @@
+#team-members-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.members-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.members-list img {
+    align-self: center;
+    width: 200px;
+    height: auto;
+}

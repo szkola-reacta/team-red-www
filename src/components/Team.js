@@ -12,6 +12,17 @@ class Team extends React.Component {
 
     componentDidMount(){
         fetch('data.json')
+<<<<<<< HEAD
+        .then(response => response.json())
+        .then(data => setMembers(data))
+    }, [])
+
+    return (
+        <div id="team-members-container">
+            {members.map(( member, index) => <Member key={`red-${index}`} member={member}/>)}
+        </div>
+    )
+=======
         .then ( response => response.json())
         .then ( data => this.setState({ data }) )
     }
@@ -32,6 +43,7 @@ class Team extends React.Component {
         )
     }
 
+>>>>>>> master
 }
 
 
