@@ -1,7 +1,6 @@
 import React, {Fragment, Component} from 'react';
 import ToggleMenu from '../components/ToggleMenu';
 import ToggleList from '../components/ToggleList';
-import { Link } from 'react-router-dom';
 
 import '../css/header-styles.css';
 
@@ -37,9 +36,9 @@ class Header extends Component {
                   <div className = "space" />
                       <div className = 'header-menu-sites'>
                       <ul>
-                          <li><Link to = "/">Home</Link></li>
-                          <li><Link to = "/team">Team</Link></li>
-                          <li><Link to = "/project">Project</Link></li>
+                          <li><a href="/">Home</a></li>
+                          <li><a href="/team">Team</a></li>
+                          <li><a href="/project">Project</a></li>
                       </ul>
                   </div>
             </nav>
