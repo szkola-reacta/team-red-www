@@ -1,5 +1,7 @@
 import React from 'react';
 
-const Projects = () => <div>Projects</div>
+import '../styles/Projects.css'
+
+const Projects = () => <div id='projects'>Projects</div>
 
 export default Projects;

@@ -1,39 +1,24 @@
-.header-container {
+.header-navbar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid red;
-}
-
-.header-logo {
-    padding: 10px;
-    margin: 10px;
-    color: red;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.header-navbar-container {
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-}
-
-.header-navbar {
-    margin: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-navbar-list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .header-navbar-list li {
     list-style: none;
-    padding: 5px 20px;
     margin-right: 20px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-    background-color: white;
 }
 
 .header-navbar-list li:hover {
@@ -42,6 +27,8 @@
 }
 
 .header-navbar-list li a {
+    display: block;
+    padding: 5px 20px;
     text-decoration: none;
     color: black;
 }

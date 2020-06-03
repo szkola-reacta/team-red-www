@@ -14,7 +14,7 @@ const Team = () => {
     }, [])
 
     return (
-        <div className="team-members-container">
+        <div id="team-members-container">
             {members.map(( member, index) => <Member key={`red-${index}`} member={member}/>)}
         </div>
     )
