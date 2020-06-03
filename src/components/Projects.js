@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/Projects.css'
+import '../css/project-styles.css';
 
 const Projects = () => <div id='projects'>Projects</div>
 

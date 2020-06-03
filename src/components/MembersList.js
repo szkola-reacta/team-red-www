@@ -8,7 +8,7 @@ const MemberList = ({ membersInfo }) => {
             <div className="members-list">
                 <h2 className="member-name">{membersInfo.name}</h2>
                 <p className="member-description">{membersInfo.description}</p>
-                <img src ={membersInfo.image} alt = 'member' />
+                {/* <img src ={membersInfo.image} alt = 'member' /> */}
                 <a className="github-link" href={membersInfo.githubURL}><img src={githubIcon} alt="github icon"/></a>
                 <a className="linkedin-link" href={membersInfo.linkedIN}><img src={linekdinIcon} alt="linkedin icon"/></a>
             </div>

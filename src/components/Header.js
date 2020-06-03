@@ -37,8 +37,8 @@ class Header extends Component {
                       <div className = 'header-menu-sites'>
                       <ul>
                           <li><a href="/">Home</a></li>
-                          <li><a href="/team">Team</a></li>
-                          <li><a href="/project">Project</a></li>
+                          <li><a href="#team">Team</a></li>
+                          <li><a href="#project">Project</a></li>
                       </ul>
                   </div>
             </nav>

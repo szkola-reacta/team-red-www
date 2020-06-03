@@ -5,7 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Team from './components/Team';
-import Project from './components/Project';
+import Projects from './components/Projects';
 import Home from './components/Home';
 
 import './App.css';
@@ -18,7 +18,7 @@ function App()
       <Header />
       <Home />
       <Team />
-      <Project />
+      <Projects />
       <Footer />
     </div>
   );

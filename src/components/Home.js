@@ -9,7 +9,7 @@ function Home()
         <div className = 'home-container'>
             <div className = 'get-demo-text'>
                 <p>GET YOUR DEMO <img src = {arrow} alt = 'arrow'/> </p>
-                </div>
+            </div>
         </div>
     );
 }
