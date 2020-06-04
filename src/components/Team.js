@@ -1,7 +1,6 @@
 import React from 'react';
 
 import MembersList from './MembersList';
-import '../css/content.css';
 import '../css/members.css';
 
 class Team extends React.Component {

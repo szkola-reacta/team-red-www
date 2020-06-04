@@ -8,7 +8,7 @@
 
 .project {
     border: 1px solid black;
-    margin-right: 50px;
+    margin: 30px;
     width: 300px;
     background-image: url('../images/photo-1490818387583-1baba5e638af.jpg');
     background-size: cover;
