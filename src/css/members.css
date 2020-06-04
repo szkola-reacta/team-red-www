@@ -1,6 +1,31 @@
 .members {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    border: 1px solid black;
+    justify-content: center;
+    /* border: 1px solid black; */
+    background-color: darkred;
+    opacity: 90%
+}
+
+.members-list {
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.members-list img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.github-link img{
+    width: 50px;
+    height: 50px;
+}
+
+.linkedin-link img{
+    width: 50px;
+    height: 50px;
 }
