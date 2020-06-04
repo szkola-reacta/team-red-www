@@ -8,6 +8,9 @@
    left: 0;
    color: white;
    text-decoration: none;
+   -webkit-box-shadow: 0px 10px 63px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 63px -14px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 63px -14px rgba(0,0,0,0.75);
 }
 
 @media screen and (max-width: 499px) {
@@ -26,12 +29,13 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .header-toolbar
     {
         display: none;
     }
   }
+
 
 .logo a
 {
@@ -66,25 +70,9 @@
 
 .header-menu-sites a:hover
 {
-    color: #000;
+    color: lightgray;
 }
 
-.header-menu-sites a::after
-{
-    content: '';
-    width: 100%;
-    bottom: 0;
-    height: .2em;
-    background: transparent;
-    display: block;
-    transition: background .3s ease-in-out;
-}
-
-.header-menu-sites a:hover::after,
-.header-menu-sites a:active::after
-{
-    background: #000;
-}
 
 .space
 {
