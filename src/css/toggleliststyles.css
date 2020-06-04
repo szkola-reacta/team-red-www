@@ -4,11 +4,12 @@
     width: 100%;
     background: darkred;
     transition: 1s ease-in-out;
+    margin-top: 11vh;
 }
 @media screen and (max-width: 499px) {
     .togglelist-container
     {
-        top: 45px;
+        margin-top: 11vh;
     }
 }
 
@@ -44,16 +45,11 @@
     transition: background .3s ease-in-out;
 }
 
-.ul-toggle  a:hover::after,
-.ul-toggle  a:active::after
-{
-    background: #000;
-}
 
 .ul-toggle a:hover,
 .ul-toggle a:active
 {
-    color: #000;
+    color: lightgray;
 }
 
 
