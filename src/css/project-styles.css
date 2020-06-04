@@ -1,4 +1,32 @@
-#projects {
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 80vh;
+}
+
+.project {
     border: 1px solid black;
+    margin-right: 50px;
+    width: 300px;
+    background-image: url('../images/photo-1490818387583-1baba5e638af.jpg');
+    background-size: cover;
+}
+
+.project_title {
+    padding: 10px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project_btn {
+    background-color: darkred;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
