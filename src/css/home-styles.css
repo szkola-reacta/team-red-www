@@ -1,4 +1,32 @@
 .home-container {
-    border: 1px solid black;
+    margin-top: 11vh;
     height: 95vh;
+    background-image: url("../images/photo-1490818387583-1baba5e638af.jpg");
+    background-size: cover;
+}
+
+.home-container h2 {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 40px;
+}
+
+.app-btn {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    width: 300px;
+    height: 50px;
+    border-radius: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: darkred;
+}
+
+.app-btn a {
+    text-decoration: none;
+    color: white;
 }

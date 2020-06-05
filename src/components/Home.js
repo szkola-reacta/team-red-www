@@ -1,14 +1,14 @@
 import React from 'react';
 import '../css/home-styles.css';
-import arrow from '../images/arrow.png'
 
 
 function Home()
 {
     return(
         <div className = 'home-container'>
+            <h2>Jakiś tekst ads asd ads asd asdadsf</h2>
             <div className = 'get-demo-text'>
-                <p>GET YOUR DEMO <img src = {arrow} alt = 'arrow'/> </p>
+                <button className="app-btn"><a href="/">Use app</a></button>
             </div>
         </div>
     );
