@@ -36,9 +36,9 @@ class Header extends Component {
                   <div className = "space" />
                       <div className = 'header-menu-sites'>
                       <ul>
-                          <li><a href="/">Home</a></li>
+                          <li><a href="#home">Home</a></li>
                           <li><a href="#team">Team</a></li>
-                          <li><a href="#project">Project</a></li>
+                          <li><a href="#projects-list">Project</a></li>
                       </ul>
                   </div>
             </nav>

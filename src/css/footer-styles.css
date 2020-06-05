@@ -1,5 +1,13 @@
 .footer-container {
    height: 3vh;
    bottom: 0;
+   font-size: 15px;
+}
+
+.footer-container span {
+   display: inline-block;
+   border-top: 1px solid darkred;
    padding: 1em;
+   width: 400px;
+   font-weight: bold;
 }
