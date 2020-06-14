@@ -6,6 +6,16 @@
     height: 80vh;
 }
 
+@media screen and (max-width: 600px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 240vh;
+    }
+}
+
 .project {
     border: 1px solid black;
     margin: 30px;
