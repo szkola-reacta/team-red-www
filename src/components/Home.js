@@ -6,7 +6,7 @@ function Home()
 {
     return(
         <div id="home" className = 'home-container'>
-            <h2>Jakiś tekst ads asd ads asd asdadsf</h2>
+            <div className = 'home-text'><h2>Jakiś tekst ads asd ads asd asdadsf</h2></div>
             <div className = 'get-demo-text'>
                 <button className="app-btn"><a href="/">Use app</a></button>
             </div>
