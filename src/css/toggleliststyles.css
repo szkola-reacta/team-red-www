@@ -2,16 +2,11 @@
 {
     position: fixed;
     width: 100%;
-    background: darkred;
-    transition: 1s ease-in-out;
-    margin-top: 11vh;
+    background-color: darkred;
+    /* margin-top: 11vh; */
+    z-index: 1;
 }
-@media screen and (max-width: 499px) {
-    .togglelist-container
-    {
-        margin-top: 11vh;
-    }
-}
+
 
 .ul-toggle
 {
@@ -49,7 +44,7 @@
 .ul-toggle a:hover,
 .ul-toggle a:active
 {
-    color: lightgray;
+    color: #aaa;
 }
 
 
